@@ -1,0 +1,104 @@
+.footer {
+    width: 100%;
+    padding: 2rem 0; /* Increased padding for more breathing space */
+    background-color: #0f3460; /* Dark background for a modern look */
+    text-align: center;
+    color: #fff; /* White text for contrast */
+}
+
+.footer .logo {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 600; /* Bolder font */
+    margin-bottom: 1.5rem;
+}
+
+.footer .logo i {
+    color: #1890ff;
+    margin-right: 0.5rem;
+    font-size: 2rem;
+}
+
+.footer .logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .socials {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem; /* Added bottom margin */
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.footer .socials li {
+    display: inline-block;
+}
+
+.footer .socials a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.footer .socials a:hover {
+    color: #1890ff;
+}
+
+.footer .copyright {
+    font-size: 0.9rem;
+    color: #aaa; /* Lighter gray for copyright text */
+}
+
+/* BackTop */
+.goTop {
+    width: 40px;
+    height: 40px;
+    background-color: #1890ff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.25rem;
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+.goTop:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.goTop i {
+    margin: 0;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 767px) {
+    .footer .logo {
+        font-size: 1.5rem;
+    }
+
+    .footer .socials a {
+        font-size: 1.2rem;
+    }
+
+    .footer .copyright {
+        font-size: 0.8rem;
+    }
+
+    .goTop {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+}

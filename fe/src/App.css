@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap'); /* Import Poppins font */
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    box-sizing: border-box;
+}
+.popover-carts .pop-cart-body .pop-cart-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.popover-carts .pop-cart-body .pop-cart-content .book {
+    display: flex;
+    gap: 5px;
+}
+
+.popover-carts .pop-cart-body .pop-cart-content .book img {
+    width: 50px;
+    height: 50px;
+}
+
+.popover-carts .pop-cart-body .pop-cart-content .book .price {
+    color: #072c57;
+}
+
+.popover-carts .pop-cart-body .pop-cart-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.popover-carts .pop-cart-body .pop-cart-footer button {
+    background-color: #0f3460;
+    color: #fff;
+    border: 1px solid #0b2646;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .03);
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.popover-carts .pop-cart-body .pop-cart-footer button:hover {
+    background-color: #32537c;
+}
+
+
